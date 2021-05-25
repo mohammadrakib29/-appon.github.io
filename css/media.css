@@ -1,0 +1,435 @@
+/*============= X-Small  Devices============= */
+/*============= Extra extra large Devices============= */
+@media(min-width:1400px) {
+     /* banner part goes to here------- */
+    
+
+}
+
+
+/*============= Extra large Devices============= */
+@media(min-width:1200px) and (max-width:1399.98px){
+
+}
+
+/*============= Large  Devices============= */
+@media(min-width:992px) and (max-width:1199.98px){
+     /* nab bar css goes to here-------------- */
+     .navbar-brand img{
+        width: 175px;
+    }
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .navbar {
+        line-height: 60px;
+    }
+    .navbar .nav-item {
+        padding-left: 30px;
+    }
+     /* banner part goes to here------- */
+     .banner-content {
+        padding-top: 0;
+    }
+
+    .icon-hover-main h6 {
+        font-size: 16px;
+    }
+    #banner .home-btn {
+        top: 45%;
+    }
+    #banner .slick-dots {
+        top: 50%;
+    }
+
+}
+
+
+/*============= Medium  Devices============= */
+@media(min-width:568px) and (max-width:991.98px){
+    /* nab bar css goes to here-------------- */
+    .navbar {
+        line-height:20px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .barss{
+        font-size: 25px;
+        color: #ffffff;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar .nav-item {
+        padding-left: 0px;
+    }
+    .navbar .nav-item a::after {
+        background-color: transparent;
+    }
+    .navbar .nav-item:last-child {
+        padding: 0;
+        margin-left: 0;
+        background-color: transparent;
+    }
+    .navbar .nav-item:last-child a:hover {
+        color: #5d3f81;
+    }
+    .navbar .navbar-nav{
+        background-color: rgba(42, 19, 70, 0.2);
+    }
+    .navbar .nav-item a:hover{
+        background-color: #f1f1f1;
+    }
+    .navbar .nav-item a {
+        font-weight: 600;
+    }
+     /* banner part goes to here------- */
+     .banner-content {
+        padding-top: 0;
+    }
+    #banner .home-btn {
+        display: none;
+    }
+    #banner .slick-dots {
+        position: absolute;
+        z-index: 12;
+        transform: translateY(-50%);
+        display: none;
+    }
+    .button-main {
+        align-items: end;
+    }
+    #banner .slick-dots li {
+        margin: 0 5px;
+        display: inline-block;
+    }
+    #banner .slick-dots {
+        top: auto;
+        right: auto;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50% ,-50%);
+    }
+    /* about part goes to here------ */
+    #about {
+        padding: 50px 0;
+    }
+    .about-disc{
+        text-align: center !important;
+    }
+     /* pricigng part goes to here------ */
+     #pricing {
+        padding-top: 60px;
+    }
+    .pricing-item {
+        margin-bottom: 40px;
+    }
+    /* team part goes to here--------- */
+    #team {
+        padding-top: 50px;
+    }
+
+}
+
+
+/*============= Small  Devices============= */
+@media(min-width:576px) and (max-width:767.98px){
+     /* nab bar css goes to here-------------- */
+     .navbar-brand img{
+        width: 180px;
+    }
+    .navbar {
+        line-height:20px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .barss{
+        color: #ffffff;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar .nav-item {
+        padding-left: 0px;
+    }
+    .navbar .nav-item a::after {
+        background-color: transparent;
+    }
+    .navbar .nav-item:last-child {
+        padding: 0;
+        margin-left: 0;
+        background-color: transparent;
+    }
+    .navbar .nav-item:last-child a:hover {
+        color: #5d3f81;
+    }
+    .navbar .navbar-nav{
+        background-color: rgba(42, 19, 70, 0.2);
+    }
+    .navbar .nav-item a:hover{
+        background-color: #f1f1f1;
+    }
+    .navbar .nav-item a {
+        font-weight: 600;
+    }
+     /* banner part goes to here------- */
+     .banner-content {
+        padding-top: 0;
+    }
+    #banner .home-btn {
+        display: none;
+    }
+    #banner .slick-dots {
+        position: absolute;
+        z-index: 12;
+        transform: translateY(-50%);
+        display: none;
+    }
+    .button-main {
+        align-items: end;
+    }
+    #banner .slick-dots li {
+        margin: 0 5px;
+        display: inline-block;
+    }
+    #banner .slick-dots {
+        top: auto;
+        right: auto;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50% ,-50%);
+    }
+     /* about part goes to here------ */
+     #about {
+        padding: 50px 0;
+    }
+    .about-disc{
+        text-align: center !important;
+    }
+    /* features part goes to here------ */
+    #features1 .box-button-content {
+        display: none;
+    }
+    .box-button::after {
+        display: none;
+    }
+    .tabs-button .nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+    #features1  .nav-link {
+        padding: 0;
+    }
+    #features1 .heading-main h3 {
+        font-size: 22px;
+    }
+    .img-features img {
+        width: 50%;
+    }
+    .content-featuress{
+        text-align: center;
+        padding-top: 35px;
+    }
+    .box-button-icon i {
+        padding: 0 15px;
+    }
+    .content-featuress h4 {
+        font-size: 25px;
+    }
+    /* pricigng part goes to here------ */
+    #pricing {
+        padding-top: 60px;
+    }
+    .pricing-item {
+        margin-bottom: 40px;
+    }
+    /* team part goes to here------ */
+    #team {
+        padding-top: 45px;
+    }
+    .team-item {
+        height: 270px;
+    }
+    .team-content h3 {
+        font-size: 16px;
+    }
+    .team-content h4 {
+        font-size: 12px;
+    }
+    .team-content p {
+        font-size: 13px;
+    }
+    .team-content {
+        padding: 18px 20px;
+    }
+    /* contact goes to here------------- */
+    #contact {
+        padding-top: 50px;
+    }
+    
+}
+
+/*============= X-Small  Devices============= */
+@media (max-width:575.98px){
+    /* nab bar css goes to here-------------- */
+    .navbar-brand img{
+        width: 160px;
+    }
+    .navbar {
+        line-height:20px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .barss{
+        color: #ffffff;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar .nav-item {
+        padding-left: 0px;
+    }
+    .navbar .nav-item a::after {
+        background-color: transparent;
+    }
+    .navbar .nav-item:last-child {
+        padding: 0;
+        margin-left: 0;
+        background-color: transparent;
+    }
+    .navbar .nav-item:last-child a:hover {
+        color: #5d3f81;
+    }
+    .navbar .navbar-nav{
+        background-color: rgba(42, 19, 70, 0.2);
+    }
+    .navbar .nav-item a:hover{
+        background-color: #f1f1f1;
+    }
+    /* banner part goes to here------- */
+    .banner-content {
+        padding-top: 0;
+    }
+    #banner .home-btn {
+        display: none;
+    }
+    .button-main {
+        flex-direction: column;
+    }
+    #banner .slick-dots {
+        position: absolute;
+        z-index: 12;
+        transform: translateY(-50%);
+        display: none;
+    }
+    .button-item {
+        width: 190px;
+        margin: 5px 0;
+    }
+    .button-main {
+        align-items: end;
+    }
+    #banner .slick-dots li {
+        margin: 0 5px;
+        display: inline-block;
+    }
+    #banner .slick-dots {
+        top: auto;
+        right: auto;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50% ,-50%);
+    }
+    /* about part goes to here------ */
+    #about {
+        padding: 50px 0;
+    }
+    .about-disc{
+        text-align: center !important;
+    }
+    /* features part goes to here------ */
+    #features1 .box-button-content {
+        display: none;
+    }
+    .box-button::after {
+        display: none;
+    }
+    .tabs-button .nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+    #features1  .nav-link {
+        padding: 0;
+    }
+    #features1 .heading-main h3 {
+        font-size: 22px;
+    }
+    .img-features img {
+        width: 70%;
+    }
+    .content-featuress{
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    /* screenshots part goes to here------ */
+    #screenshots {
+        padding: 80px 0;
+        padding-top: 50px;
+    }
+    /* pricigng part goes to here------ */
+    #pricing {
+        padding-top: 60px;
+    }
+    .pricing-item {
+        margin-bottom: 40px;
+    }
+    /* team part goes to here------ */
+    #team {
+        padding-top: 45px;
+    }
+    .team-main {
+        padding-top: 80px;
+    }
+    .team-item {
+        height: 300px;
+    }
+    .team-content {
+        padding: 20px 15px;
+    }
+    .team-content h3 {
+        font-size: 16px;
+    }
+    .team-content h4 {
+        font-size: 13px;
+    }
+    .team-content p {
+        font-size: 13px;
+    }
+    .feed-img-slider {
+        width: 100%;
+    }
+    .feedback-bg {
+        padding: 320px 0;
+    }
+    /* contact part goes to here------ */
+    #contact {
+        padding-top: 50px;
+    }
+    /* footer part goes to here------ */
+    .footer-img img {
+        width: 190px;
+    }
+    .footer-icon-list i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+}
+/*============= X-Small  Devices============= */
+/*============= X-Small  Devices============= */
+/*============= X-Small  Devices============= */
